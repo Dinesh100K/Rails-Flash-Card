@@ -3,11 +3,12 @@ import { NavLink } from 'react-router-dom'
 import Button from '../components/common/Button'
 import { Card } from '../components/common/Card'
 import { TextField } from '../components/common/TextField'
+import axios from 'axios'
 const backdrop = require('../../../../assets/images/backdrop.jpg')
 
 const LoginPage = (props: any) => {
   const googleLogin = () => {
-    window.open(`/auth/google`, '_self')
+    window.open(`/users/auth/google_oauth2`, '_self')
   }
   const handleSubmit = (event: any) => {
     event.preventDefault()

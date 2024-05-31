@@ -81,3 +81,13 @@ gem 'rename', '~> 1.0'
 gem 'rubocop-rails', require: false
 gem 'tailwindcss-rails', '~> 2.0'
 
+
+gem "dotenv-rails", "~> 2.8"
+
+gem "omniauth", "~> 2.1"
+
+gem "omniauth-google-oauth2", "~> 1.1"
+
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+
+gem "rack-cors", "~> 1.1"
